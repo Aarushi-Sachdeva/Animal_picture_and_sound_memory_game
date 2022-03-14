@@ -1,4 +1,4 @@
-##Animal sound memory game
+## Animal sound memory game
 This is a image and sound memory game. I have changed it up a little from the simple light and sound memory game.
 You can see the rules of hwo the game works on the website!
 
