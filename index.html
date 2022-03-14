@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Animal Sound Memory Game</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <div id="title">Animal Sound Memory Game</div>
+
+    <p>Welcome to the Animal Sound Memory Game!</p>
+    <p>
+      How the game works: Each round a sequence of animal sounds corresponding
+      to different buttons will be played. Listen carefully to the sequence and
+      repeat by clicking the right buttons. Each round one more button is added
+      to the sequence. You get 3 strikes before you lose the game.
+    </p>
+    <p>Good luck!</p>
+
+    <!-- Start and Stop buttons-->
+    <!-- between the > and </button> we see contents of the buttons-->
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    <!-- Once you've added the button from the readme, click it in the page -->
+    <!-- Check out the function in script.js to see how it works -->
+
+    <audio
+      id="audio1"
+      src="https://cdn.glitch.global/71113e93-3a9f-4ff6-85d5-db0fc2d43db6/oink_sound.wav?v=1647215451629"
+    ></audio>
+    <audio
+      id="audio2"
+      src="https://cdn.glitch.global/71113e93-3a9f-4ff6-85d5-db0fc2d43db6/chick_sound.wav?v=1647215127204"
+    ></audio>
+    <audio
+      id="audio3"
+      src="https://cdn.glitch.global/71113e93-3a9f-4ff6-85d5-db0fc2d43db6/owl_sound.mp3?v=1647214715891"
+    ></audio>
+    <audio
+      id="audio4"
+      src="https://cdn.glitch.global/71113e93-3a9f-4ff6-85d5-db0fc2d43db6/elephant_sound.wav?v=1647206828549"
+    ></audio>
+    <audio
+      id="audio5"
+      src="https://cdn.glitch.global/71113e93-3a9f-4ff6-85d5-db0fc2d43db6/frog_sound.mp3?v=1647201649551"
+    ></audio>
+    <audio
+      id="audio6"
+      src="https://cdn.glitch.global/71113e93-3a9f-4ff6-85d5-db0fc2d43db6/lion_sound.wav?v=1647214962403"
+    ></audio>
+
+    <!-- <div> is a container and here we have given it the tag "gmaeButtonArea" -->
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onmousedown="startTone(1)"
+        onmouseup="stopTone(1)"
+        onclick="guess(1)"
+      >
+        <img
+          id="image1"
+          src="https://cdn.glitch.global/71113e93-3a9f-4ff6-85d5-db0fc2d43db6/pig.png?v=1647205857627"
+          alt="pig"
+          width="200"
+          height="200"
+        />
+      </button>
+
+      <button
+        id="button2"
+        onmousedown="startTone(2)"
+        onmouseup="stopTone(2)"
+        onclick="guess(2)"
+      >
+        <img
+          id="image2"
+          src="https://cdn.glitch.global/71113e93-3a9f-4ff6-85d5-db0fc2d43db6/chick.png?v=1647205984657"
+          alt="chick"
+          width="200"
+          height="200"
+        />
+      </button>
+
+      <button
+        id="button3"
+        onmousedown="startTone(3)"
+        onmouseup="stopTone(3)"
+        onclick="guess(3)"
+      >
+        <img
+          id="image3"
+          src="https://cdn.glitch.global/71113e93-3a9f-4ff6-85d5-db0fc2d43db6/owl.png?v=1647205550883"
+          alt="owl"
+          width="200"
+          height="200"
+        />
+      </button>
+
+      <button
+        id="button4"
+        onmousedown="startTone(4)"
+        onmouseup="stopTone(4)"
+        onclick="guess(4)"
+      >
+        <img
+          id="image4"
+          src="https://cdn.glitch.global/71113e93-3a9f-4ff6-85d5-db0fc2d43db6/elephant.png?v=1647206512949"
+          alt="elephant"
+          width="200"
+          height="200"
+        />
+      </button>
+
+      <button
+        type="button"
+        id="button5"
+        onmousedown="startTone(5)"
+        onmouseup="stopTone(5)"
+        onclick="guess(5)"
+      >
+        <img
+          id="image5"
+          src="https://cdn.glitch.global/71113e93-3a9f-4ff6-85d5-db0fc2d43db6/frog.png?v=1647203165863"
+          alt="frog"
+          width="200"
+          height="200"
+        />
+      </button>
+
+      <button
+        id="button6"
+        onmousedown="startTone(6)"
+        onmouseup="stopTone(6)"
+        onclick="guess(6)"
+      >
+        <img
+          id="image6"
+          src="https://cdn.glitch.global/71113e93-3a9f-4ff6-85d5-db0fc2d43db6/lion.png?v=1647205924374"
+          alt="lion"
+          width="200"
+          height="200"
+        />
+      </button>
+    </div>
+  </body>
+</html>
