@@ -45,12 +45,15 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ![](gif4-link-here)
 
 ## Reflection Questions
-1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+
+**1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. **
+
 --> W3 schools' and GeeksforGeeks documentation on HTML,CSS and java script to figure out how to embedd images and use audio files
 --> Mdn web docs JavaScript math library documentatioon to help me understand how to use .random() and .floor() to generate a random sequence
 --> thesitewizard.com to learn how to change the visibility of images
 
-2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+
+**2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) **
 
 The most challenging part of the pre-work was “sprucing up the buttons”. It took me time to understand how tags work in HTML and how they can then be used as selectors in the CSS code. I would say most of the difficulty came from trying to understand the syntax of HTML and CSS, both of which are completely new to me. 
 
@@ -64,8 +67,8 @@ Although in retrospect this seems like an easy enough task to do, the process in
 
 
   
-  
 **3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)** 
+  
 After developing this website, I realised that if I were to open it up on a phone screen it would look very differnt from how it does on a computer screen.So, my first question is: how do web developers go about designing websites that can be viewed on multiple different screen sizes, while ensuring that all the content and asthetics
 are preserved?
 
@@ -76,9 +79,8 @@ My next question pertains to testing methods. When creating this website, each t
 This website is relatively simplistic, but I imagine that a large scale website would have lots of features (buttons, links between pages, links to other pages, text, images, audio etc.) When you click onto a website, are all its features loaded in one go or as and when the user asks for them? 
 
 
-
-**4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-**
+**4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) **
+  
 When adding the optional features to my game, I had a vision of turning the light and sound memory game into an educational tool for children. Everything I have implemented until now, including the images, audio, colour scheme, and text are geared towards this audience. However, I think there are additional features that can make this game more accessible and educational for younger users.
 
 1) Add a “play next clue” button: When the user is entering their guess, I would like the audio for each button to play for the entirity of its length instead of playing until “onmouseup”. This requires changing the wait time between successive clues. There are two ways to implement this, hardcode the time for each guess depending on the round, or the more general, and I believe appropriate solution, would be to add a “play next clue” button
