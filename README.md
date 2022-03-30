@@ -40,10 +40,6 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-If you recorded multiple GIFs for all the implemented features, you can add them here:
-![]()
-
-
 https://user-images.githubusercontent.com/101431006/160949594-dd709de1-6c79-44b6-a1bb-abaac5981eb6.mp4
 
 
@@ -51,9 +47,7 @@ https://user-images.githubusercontent.com/101431006/160948910-9e5e30ae-6839-4876
 
 https://user-images.githubusercontent.com/101431006/160949557-a696659c-6e51-4789-9e70-70f38882a4ea.mp4
 
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+
 
 ## Reflection Questions
 
