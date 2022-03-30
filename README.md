@@ -6,7 +6,7 @@ Submitted by: Aarushi Sachdeva
 
 Time spent: 6 hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: (https://glitch.com/edit/#!/windy-cooked-amaranthus)
 
 ## Required Functionality
 
@@ -97,7 +97,7 @@ I would also add more categories to the game.
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://drive.google.com/file/d/1S6J8jFJzu73F6vQLQsRvDaO4GNttsseT/view?usp=sharing)
 
 
 ## License
