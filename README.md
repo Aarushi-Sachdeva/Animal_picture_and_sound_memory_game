@@ -20,6 +20,8 @@ The following **required** functionality is complete:
 * [x] User wins the game after guessing a complete pattern
 * [x] User loses the game after an incorrect guess
 
+
+
 The following **optional** features are implemented:
 
 * [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
@@ -42,8 +44,12 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ![]()
 
 
+https://user-images.githubusercontent.com/101431006/160949594-dd709de1-6c79-44b6-a1bb-abaac5981eb6.mp4
+
+
 https://user-images.githubusercontent.com/101431006/160948910-9e5e30ae-6839-4876-9d1b-1e5728d28d2e.mp4
 
+https://user-images.githubusercontent.com/101431006/160949557-a696659c-6e51-4789-9e70-70f38882a4ea.mp4
 
 ![](gif2-link-here)
 ![](gif3-link-here)
