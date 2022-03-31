@@ -53,9 +53,9 @@ https://user-images.githubusercontent.com/101431006/160949557-a696659c-6e51-4789
 
 **1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.**
 
---> W3 schools' and GeeksforGeeks documentation on HTML,CSS and java script to figure out how to embedd images and use audio files
---> Mdn web docs JavaScript math library documentatioon to help me understand how to use .random() and .floor() to generate a random sequence
---> thesitewizard.com to learn how to change the visibility of images
+- W3 schools' and GeeksforGeeks documentation on HTML,CSS and java script to figure out how to embedd images and use audio files
+- Mdn web docs JavaScript math library documentatioon to help me understand how to use .random() and .floor() to generate a random sequence
+- thesitewizard.com to learn how to change the visibility of images
 
 
 **2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)**
