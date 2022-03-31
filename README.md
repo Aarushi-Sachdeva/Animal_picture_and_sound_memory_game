@@ -6,7 +6,7 @@ Submitted by: Aarushi Sachdeva
 
 Time spent: 6 hours spent in total
 
-Link to project: (https://glitch.com/edit/#!/windy-cooked-amaranthus)
+Link to project: (https://glitch.com/edit/#!/a-trip-to-the-zoo)
 
 ## Required Functionality
 
