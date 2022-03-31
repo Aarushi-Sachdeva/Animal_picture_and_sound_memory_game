@@ -89,15 +89,16 @@ This website is relatively simplistic, but I imagine that a large scale website 
 When adding the optional features to my game, I had a vision of turning the light and sound memory game into an educational tool for children. Everything I have implemented until now, including the images, audio, colour scheme, and text are geared towards this audience. However, I think there are additional features that can make this game more accessible and educational for younger users.
 
 1) Add a “play next clue” button: When the user is entering their guess, I would like the audio for each button to play for the entirity of its length instead of playing until “onmouseup”. This requires changing the wait time between successive clues. There are two ways to implement this, hardcode the time for each guess depending on the round, or the more general, and I believe appropriate solution, would be to add a “play next clue” button
---> This button would pop up once the game has started (next to the start/stop button) 
---> If user clicks before entering guess for previous clue, it will remind the user to enter their guess first. Else it will play the next clue.
---> Hide button once the last clue is played
+- This button would pop up once the game has started (next to the start/stop button) 
+- If user clicks before entering guess for previous clue, it will remind the user to enter their guess first. Else it will play the next clue.
+- Hide button once the last clue is played
 
 I would also add more categories to the game. 
---> This would mean changing the landing page, and the title of the website
-    --> New landing page would include buttons (with a design/name that indicates the category) that are linked to pages with the respective the games
---> Since I want to make this an educational website for kids, I would include categories such as alphabets, numbers, fruit, colours etc.
---> The general rules of the game for each category would remain the same but each would involve implementing different number of buttons as well as           different types of images and audio. If possible it would also be interesting to implement it in a way that, if we take the colour catagory for           example, the colour combination of the buttons change each time you play the game. This way the children playing the game will be introduced to a         larger variety of colours. With the number category, for example, the player could change the range of numbers they wan't to be tested on.
+- This would mean changing the landing page, and the title of the website
+    -New landing page would include buttons (with a design/name that indicates the category) that are linked to pages with the respective the games
+- Since I want to make this an educational website for kids, I would include categories such as alphabets, numbers, fruit, colours etc.
+- The general rules of the game for each category would remain the same but each would involve implementing different number of buttons as well as   different types of images and audio. If possible it would also be interesting to implement it in a way that, if we take the colour catagory for   example, the colour combination of the buttons change each time you play the game. This way the children playing the game will be introduced to
+  a larger variety of colours. With the number category, for example, the player could change the range of numbers they wan't to be tested on.
 
 
 ## Interview Recording URL Link
