@@ -1,6 +1,9 @@
 # Memory Game: A trip to the Zoo!
 
-"A trip to the zoo!" is a Light & Sound Memory game
+"A trip to the zoo!" is a fun and easy educational game I made with a young audience in mind. It is a variant of a light and sound memory game.
+There are 6 buttons on the screen. With each round of the game, a button is added to a sqeuence, 
+
+This is a fun and easy game educational game I made for kids. It is a variant of a light and sound memory game. Kids playing this will develop their ability to recognise animals and the sounds they make by playing this game!
 
 Link to project: (https://glitch.com/edit/#!/a-trip-to-the-zoo)
 
